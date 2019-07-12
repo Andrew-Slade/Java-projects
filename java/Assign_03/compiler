@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ "$1" == "compile" ];
+then
+  javac XMLDownloader.java Album.java XMLDownloadPanel.java XMLDownloadTask.java
+  java XMLDownloader 
+elif [ "$1" == "clean" ];
+then 
+  rm *.class
+else
+  echo "Invalid option"
+fi

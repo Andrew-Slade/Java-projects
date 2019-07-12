@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ "$1" == "compile" ];
+then
+    javac -Xlint CustomerServer.java CustomerClient.java secrets.java
+    java CustomerServer &
+    java CustomerClient
+elif [ "$1" == "clean" ];
+then 
+  rm *.class
+  killall java
+else
+  echo "Invalid option"
+fi

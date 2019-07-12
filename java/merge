@@ -1,0 +1,7 @@
+#!/bin/bash
+#sync github repo to my own heirarchy
+
+rsync -r ~/java_school_repos/Andrew_Assigns/* ~/Documents/gits/school_repositories/Java-470/
+
+#sanitize the structure
+rm LICENSE_Andrew ./mysync gitcommand

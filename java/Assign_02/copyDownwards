@@ -1,0 +1,2 @@
+#!/bin/bash
+cp GUIRedeemMiles.java FrontEnd/src/GUIRedeemMiles.java 

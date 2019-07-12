@@ -1,0 +1,34 @@
+get months from user
+get user's miles
+
+	check months with supersaver month in supersaver months
+		/			\
+	       /                         \
+	     yes			no
+	      |				|
+	|------------------------------------------|
+	|     get supersaver		get regular|----destination
+	|	 miles			miles      |
+	|------------------------------------------|
+		|			|
+		 \	               /
+		compare miles with user's miles
+			     |
+			have enough for upgrade?
+			/			\
+			yes			no
+			|			|
+		 |---------------------------------------|
+		 |	upgrade			do not   |
+	package--|				upgrade  |
+		 |					 |
+		 |---------------------------------------|
+		           |			|
+			    \                  /
+			     \                /
+			           output
+				     |
+				     |
+				output format:
+					destination and package	
+

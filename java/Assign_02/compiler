@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ "$1" == "compile" ];
+then
+  javac Destination.java GUIRedeemMiles.java MilesRedeemer.java
+  java GUIRedeemMiles miles.txt 
+elif [ "$1" == "clean" ];
+then 
+  rm *.class
+else
+  echo "Invalid option"
+fi
