@@ -1,4 +1,4 @@
 class secrets{
-   public String user = "andrew";
-   public String password = "TKrV05#)";
+   public String user = "";
+   public String password = "";
 };
